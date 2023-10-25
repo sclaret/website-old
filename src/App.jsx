@@ -1,3 +1,4 @@
+import styles from "./App.module.css";
 import { TestIconList } from "./TestIconList.jsx";
 
 export function App() {
@@ -6,7 +7,7 @@ export function App() {
       <div className="card bg-warning">
         <div className="card-body">
           <h5 className="card-title">Special title treatment</h5>
-          <p className="card-text">
+          <p className={`card-text ${styles.myRedText}`}>
             With supporting text below as a natural lead-in to additional
             content.
           </p>
