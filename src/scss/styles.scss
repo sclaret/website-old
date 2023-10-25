@@ -94,6 +94,9 @@ $link-hover-color-dark: #cc6600;
 
 @import "icon-list";
 
+// TODO: bundle the font
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;600&display=swap");
 body {
-  padding: 1.5rem;
+  //padding: 1.5rem;
+  --bs-body-font-family: "Source Sans 3";
 }
