@@ -38,6 +38,11 @@ $body-bg: #fff;
 $border-radius: 0.4rem;
 $success: #7952b3;
 
+$body-color-dark: #fff;
+$body-bg-dark: #242424;
+$link-color-dark: $body-color-dark;
+$link-hover-color-dark: #cc6600;
+
 // Required
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
