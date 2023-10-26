@@ -495,7 +495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.11.8":
+"@popperjs/core@npm:2.11.8":
   version: 2.11.8
   resolution: "@popperjs/core@npm:2.11.8"
   checksum: 4681e682abc006d25eb380d0cf3efc7557043f53b6aea7a5057d0d1e7df849a00e281cd8ea79c902a35a414d7919621fc2ba293ecec05f413598e0b23d5a1e63
@@ -557,7 +557,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.2.14":
+"@types/react-dom@npm:18.2.14":
   version: 18.2.14
   resolution: "@types/react-dom@npm:18.2.14"
   dependencies:
@@ -566,7 +566,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.2.31":
+"@types/react@npm:*":
+  version: 18.2.33
+  resolution: "@types/react@npm:18.2.33"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: d3392785660d78121541403a5d1da57dc79e8ce402769251a626aa06a6886a6aaead868a01ee473661380ddd4ac79743de78853d69f652544da191d435f78afb
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.31":
   version: 18.2.31
   resolution: "@types/react@npm:18.2.31"
   dependencies:
@@ -584,7 +595,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:^4.1.0":
+"@vitejs/plugin-react@npm:4.1.0":
   version: 4.1.0
   resolution: "@vitejs/plugin-react@npm:4.1.0"
   dependencies:
@@ -714,14 +725,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap-icons@npm:^1.11.1":
+"bootstrap-icons@npm:1.11.1":
   version: 1.11.1
   resolution: "bootstrap-icons@npm:1.11.1"
   checksum: cfef41b62847b4b4398c5ae4d93365ffe4b84a1fe6e7d09875c5c4eaee8b50182508c2097a4c3d71ea97f1729ad5a254c6607bf64eb45acea00aebbef29ab5b8
   languageName: node
   linkType: hard
 
-"bootstrap@npm:^5.3.2":
+"bootstrap@npm:5.3.2":
   version: 5.3.2
   resolution: "bootstrap@npm:5.3.2"
   peerDependencies:
@@ -793,9 +804,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001541":
-  version: 1.0.30001553
-  resolution: "caniuse-lite@npm:1.0.30001553"
-  checksum: 75656429566b44f968e5575f2bc4a27052ed5bb49763069f6b6c3f64c5a2d4c561dc17342faee42ef42d004572fba7c214d5321d18d9283c95f3bf17e5498355
+  version: 1.0.30001554
+  resolution: "caniuse-lite@npm:1.0.30001554"
+  checksum: 1ef7647d005ff4b6d2797dd3d4d47cf66733531999e40b50dcbe3c84f59f8ecac92ffba7ca35b932bd1ce5f8aedbf22f3bd464898be00874e3db99ef869bd726
   languageName: node
   linkType: hard
 
@@ -950,9 +961,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.535":
-  version: 1.4.566
-  resolution: "electron-to-chromium@npm:1.4.566"
-  checksum: 9df1aed0ecbf0026e8b2b055169aac0b73c1077d809430801093f0d5e19e82e8466c273eddc1c0b7d9f63f598546421c42fedee93c341b8f7c38e6bb9286d0e7
+  version: 1.4.568
+  resolution: "electron-to-chromium@npm:1.4.568"
+  checksum: 6100f8327da29225a8b683590e2d14e24743eec1a0c99e374af8bc57187cc6d23767e057cd8ba98a2259e0dcdc8705f706255c131269f9b65129bf7e70fc0fc4
   languageName: node
   linkType: hard
 
@@ -1757,7 +1768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.0.3":
+"prettier@npm:3.0.3":
   version: 3.0.3
   resolution: "prettier@npm:3.0.3"
   bin:
@@ -1776,7 +1787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.2.0":
+"react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -1795,7 +1806,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.2.0":
+"react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -1870,7 +1881,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.69.4":
+"sass@npm:1.69.4":
   version: 1.69.4
   resolution: "sass@npm:1.69.4"
   dependencies:
@@ -2120,7 +2131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.5.0":
+"vite@npm:4.5.0":
   version: 4.5.0
   resolution: "vite@npm:4.5.0"
   dependencies:
@@ -2164,17 +2175,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "website@workspace:."
   dependencies:
-    "@popperjs/core": "npm:^2.11.8"
-    "@types/react": "npm:^18.2.31"
-    "@types/react-dom": "npm:^18.2.14"
-    "@vitejs/plugin-react": "npm:^4.1.0"
-    bootstrap: "npm:^5.3.2"
-    bootstrap-icons: "npm:^1.11.1"
-    prettier: "npm:^3.0.3"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    sass: "npm:^1.69.4"
-    vite: "npm:^4.5.0"
+    "@popperjs/core": "npm:2.11.8"
+    "@types/react": "npm:18.2.31"
+    "@types/react-dom": "npm:18.2.14"
+    "@vitejs/plugin-react": "npm:4.1.0"
+    bootstrap: "npm:5.3.2"
+    bootstrap-icons: "npm:1.11.1"
+    prettier: "npm:3.0.3"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    sass: "npm:1.69.4"
+    vite: "npm:4.5.0"
   languageName: unknown
   linkType: soft
 
