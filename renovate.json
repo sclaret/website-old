@@ -7,5 +7,6 @@
     ":approveMajorUpdates",
     ":prConcurrentLimit10",
     ":prHourlyLimitNone"
-  ]
+  ],
+  "rangeStrategy": "bump"
 }
