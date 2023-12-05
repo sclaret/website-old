@@ -605,12 +605,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.14":
-  version: 18.2.14
-  resolution: "@types/react-dom@npm:18.2.14"
+"@types/react-dom@npm:18.2.17":
+  version: 18.2.17
+  resolution: "@types/react-dom@npm:18.2.17"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 1f79a7708d038cd651bdb21e01a99c594761bc9a40a565abe98958e1d27facfeb6e9824ddf6ae3504e7a56568f0f3da2380fe52ac18477b5864d2d5cf1386a9e
+  checksum: 33b53078ed7e9e0cfc4dc691e938f7db1cc06353bc345947b41b581c3efe2b980c9e4eb6460dbf5ddc521dd91959194c970221a2bd4bfad9d23ebce338e12938
   languageName: node
   linkType: hard
 
@@ -625,14 +625,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.34":
-  version: 18.2.34
-  resolution: "@types/react@npm:18.2.34"
+"@types/react@npm:18.2.41":
+  version: 18.2.41
+  resolution: "@types/react@npm:18.2.41"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 42a357e3ec8943fe433f647e60e1506ec7657e12a72847ca801f97a128778dff6011e57ae2eb53f6363cf4515cab60f6a47eca2f916bab27a85bd88c94ab72d3
+  checksum: 5cc72491ce8be95e7bbedd8bf039ca971772ecd22d989feb045af7e73247c7e6cff25a2f1c2200be461fb2f6b5aacef739e1ba9fd83c744209dfd3ce8aa75afe
   languageName: node
   linkType: hard
 
@@ -2224,8 +2224,8 @@ __metadata:
   resolution: "website@workspace:."
   dependencies:
     "@popperjs/core": "npm:2.11.8"
-    "@types/react": "npm:18.2.34"
-    "@types/react-dom": "npm:18.2.14"
+    "@types/react": "npm:18.2.41"
+    "@types/react-dom": "npm:18.2.17"
     "@vitejs/plugin-react": "npm:4.2.0"
     bootstrap: "npm:5.3.2"
     bootstrap-icons: "npm:1.11.1"
