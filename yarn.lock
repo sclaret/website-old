@@ -1900,12 +1900,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.1.0":
-  version: 3.1.0
-  resolution: "prettier@npm:3.1.0"
+"prettier@npm:3.2.2":
+  version: 3.2.2
+  resolution: "prettier@npm:3.2.2"
   bin:
     prettier: bin/prettier.cjs
-  checksum: a45ea70aa97fde162ea4c4aba3dfc7859aa6a732a1db34458d9535dc3c2c16d3bc3fb5689e6cd76aa835562555303b02d9449fd2e15af3b73c8053557e25c5b6
+  checksum: e84d0d2a4ce2b88ee1636904effbdf68b59da63d9f887128f2ed5382206454185432e7c0a9578bc4308bc25d099cfef47fd0b9c211066777854e23e65e34044d
   languageName: node
   linkType: hard
 
@@ -2349,7 +2349,7 @@ __metadata:
     "@vitejs/plugin-react": "npm:4.2.1"
     bootstrap: "npm:5.3.2"
     bootstrap-icons: "npm:1.11.2"
-    prettier: "npm:3.1.0"
+    prettier: "npm:3.2.2"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     sass: "npm:1.69.7"
