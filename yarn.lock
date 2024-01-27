@@ -725,10 +725,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap-icons@npm:1.11.1":
-  version: 1.11.1
-  resolution: "bootstrap-icons@npm:1.11.1"
-  checksum: cfef41b62847b4b4398c5ae4d93365ffe4b84a1fe6e7d09875c5c4eaee8b50182508c2097a4c3d71ea97f1729ad5a254c6607bf64eb45acea00aebbef29ab5b8
+"bootstrap-icons@npm:1.11.3":
+  version: 1.11.3
+  resolution: "bootstrap-icons@npm:1.11.3"
+  checksum: 37eefd418c6bbbb304bdff0f2ed527f82c3c6f331d3e3a7c4aa8bbdbaf7118bb86725b024f85e7d738c613d48c7353cd81c09e58e9d8d34c5633960fdec8410b
   languageName: node
   linkType: hard
 
@@ -2180,7 +2180,7 @@ __metadata:
     "@types/react-dom": "npm:18.2.14"
     "@vitejs/plugin-react": "npm:4.1.0"
     bootstrap: "npm:5.3.2"
-    bootstrap-icons: "npm:1.11.1"
+    bootstrap-icons: "npm:1.11.3"
     prettier: "npm:3.0.3"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
