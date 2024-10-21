@@ -23,5 +23,5 @@
     "sass": "1.69.4",
     "vite": "4.5.0"
   },
-  "packageManager": "yarn@4.0.0"
+  "packageManager": "yarn@4.5.1"
 }
